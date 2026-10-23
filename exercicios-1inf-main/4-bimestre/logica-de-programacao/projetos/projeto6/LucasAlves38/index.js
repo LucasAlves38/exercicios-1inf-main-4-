@@ -4,7 +4,7 @@ const metaDiaria = Number(prompt("Meta diária: "))
    const metaSemanal=Number(  prompt("Meta semanal: "))
 let totalVendido=0
 let diasAcimaDaMeta = 0
-   let melhorDia=0
+let melhorDia=0
 for(let dia=1;dia<=quantidadeDeDias;dia++){
 const venda=Number(prompt(`Venda do dia ${dia}: `))
       totalVendido+=venda
